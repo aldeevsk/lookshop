@@ -1,31 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+
 @import 'vars';
+@import 'global';
 @import 'grid';
 @import 'fonts';
-@import 'header';
 @import 'home';
-@import 'about';
+@import 'hot';
+@import 'clearance';
+@import 'footer';
 
-body {
-    font-family: 'Conv_CrimsonText-Regular', serif;
-    font-size: 14px;
-    color: $tc-grey;
-}
 
-h1 {
-    font-family: 'Amsdam Regular', sans-serif;
-    font-size: 35,63px;
-    color: $tc-white;
-    text-transform: uppercase;
-}
 
-h2 {
-    font-family: 'Amsdam Regular', sans-serif;
-    font-size: 20px;
-    color: $tc-grey;
-    text-transform: uppercase;
-}
-
-h3 {
-    font-family: 'Conv_Montserrat-Regular', sans-serif;
-    font-size: 13px;
-}

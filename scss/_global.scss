@@ -1,0 +1,36 @@
+.primary {
+    background: $primary;
+}
+
+.black {
+    background: $black;
+}
+
+.btn {
+    text-transform: uppercase;
+    text-align: center;
+    width: fit-content;
+    align-self: center;
+    padding: 23px 30px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+    font-size: 20px;
+    color: $light-grey;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:active {
+    box-shadow: inset 5px 5px $primary-dark, inset -5px -5px $primary-dark;
+}
+
+.load-more {
+    margin: 20px 0;
+    background: $black;
+}
+
+.load-more:active {
+    background: $light-black;
+    box-shadow: inherit;
+}

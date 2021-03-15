@@ -1,0 +1,18 @@
+#clearance {
+    .section-title {
+        background: $white;
+        border-bottom: 2px solid $grey;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        .img-wrapper {
+            position: absolute;
+            bottom: -100%;
+            padding: 10px;
+            background: inherit;
+        }
+    }
+    .product-block {
+        margin-top: 80px;
+    }
+}
