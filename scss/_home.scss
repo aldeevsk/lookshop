@@ -1,0 +1,11 @@
+#home {
+    background: url('/img/bg/home.jpg') no-repeat center bottom;
+    height: 698px;
+    color: $tc-lgrey;
+    h1 {
+        border-top: 2px solid $tc-lgrey;
+        border-bottom: 2px solid $tc-lgrey;
+        margin: 28px 0;
+        padding: 28px 0;
+    }
+}
